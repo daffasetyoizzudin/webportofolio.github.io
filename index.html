@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio | Daffa Setyo - Sistem Informasi UDINUS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="tes.css">
     <link rel="stylesheet" href="tes.js">
+    
+        
 </head>
 <body>
 
@@ -108,6 +111,9 @@
                         <li>Pengelolaan Database Relasional (MySQL)</li>
                         <li>Pemodelan Sistem Informasi (DFD &amp; ERD)</li>
                         <li>Analisis Kebutuhan Sistem &amp; Bisnis</li>
+                        <li>Design aplikasi</li>
+                        <li>Vidiografi</li>
+                        <li>Photografi</li>
                     </ul>
                 </div>
 
@@ -120,28 +126,359 @@
                             <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3Schools &nearr;</a>
                         </li>
                         <li>Eksplorasi pembuatan aplikasi web dan UI/UX</li>
-                        <li>Menulis catatan teknis seputar pemrograman</li>
+                        <li>Membuat dan mengembangkan aplikasi</li>
+                        <li>Bermain Gitar</li>
                     </ol>
                 </div>
             </div>
         </section>
 
         <section id="projek">
-            <h2 class="section-title">D. Projek & Aktivitas Akademik</h2>
+            <h2 class="section-title">D. Projek & Aktivitas Portofolio</h2>
+            <p style="color: var(--text-muted); margin-bottom: 24px;">
+                Koleksi sistem informasi, platform berbasis web, serta solusi digital yang telah saya rancang dan kembangkan:
+            </p>
             
-            <article class="project-card">
-                <h3 style="color: var(--primary); margin-bottom: 8px;">Tugas Pemrograman Web 1</h3>
-                <p style="color: #475569;">
-                    Projek ini adalah halaman portofolio profil dan formulir interaktif menggunakan struktur elemen semantik HTML5, tabel terstruktur responsif, dan komponen masukan data yang lengkap.
-                </p>
-            </article>
+            <div class="projects-grid">
+                <!-- 01. SMAPANGKU -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img 
+                            src="smapangku.png" 
+                            alt="Visual Projek SMAPANGKU" 
+                            class="project-img"
+                            onerror="this.src='https://placehold.co/600x350/1e3a8a/ffffff?text=SMAPANGKU'"
+                        >
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-number">01</span>
+                                <h3>SMAPANGKU</h3>
+                            </div>
+                            <span class="badge-project">Smart School & PWA</span>
+                        </div>
+                        <p class="project-category-sub">Platform Sekolah Pintar &bull; Teknologi Pendidikan</p>
+                        <p class="project-desc">
+                            Platform sekolah pintar berbasis web dengan kemampuan <em>Progressive Web App</em> (PWA) untuk menghadirkan aktivitas sekolah dalam satu ekosistem digital terintegrasi.
+                        </p>
+                        
+                        <div class="project-features">
+                            <strong>Fitur Utama:</strong>
+                            <ul>
+                                <li>Presensi digital berbasis QR Code interaktif</li>
+                                <li>Ruang kelas online & pembelajaran virtual</li>
+                                <li>Dukungan PWA (pengalaman setara native app)</li>
+                                <li>Integrasi modul administrasi kegiatan sekolah</li>
+                            </ul>
+                        </div>
 
-            <aside class="info-banner">
-                <strong>Catatan Kampus:</strong> Informasi jadwal perkuliahan dan kurikulum akademik dapat dipantau langsung melalui portal 
-                <a href="https://mhs.dinus.ac.id" target="_blank" rel="noopener noreferrer" style="font-weight: 600; text-decoration: underline;">
-                    Siadin Udinus &nearr;
-                </a>.
-            </aside>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Supabase</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 02. PANG.CASUALS -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img 
+                            src="PANG1.png" 
+                            alt="Visual Projek PANG.CASUALS" 
+                            class="project-img"
+                            onerror="this.src='https://placehold.co/600x350/0f172a/ffffff?text=PANG.CASUALS'"
+                        >
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-number">02</span>
+                                <h3>PANG.CASUALS</h3>
+                            </div>
+                            <span class="badge-project">E-Commerce</span>
+                        </div>
+                        <p class="project-category-sub">Fashion & Retail</p>
+                        <p class="project-desc">
+                            Situs web e-commerce ritel pakaian dengan etalase digital lengkap untuk pemesanan produk, sistem kupon diskon, serta integrasi gateway pembayaran non-tunai.
+                        </p>
+
+                        <div class="project-features">
+                            <strong>Fitur Utama:</strong>
+                            <ul>
+                                <li>Katalog produk dinamis & keranjang belanja</li>
+                                <li>Manajemen pesanan & alur checkout terpadu</li>
+                                <li>Dukungan pembayaran digital instan via QRIS</li>
+                                <li>Sistem validasi kode promo & pelacakan paket</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Apps Script</span>
+                            <span>Google Sheets</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 03. PAGU-TOOLS -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img 
+                            src="PAGU1.png" 
+                            alt="Visual Projek PAGU-TOOLS" 
+                            class="project-img"
+                            onerror="this.src='https://placehold.co/600x350/0284c7/ffffff?text=PAGU-TOOLS'"
+                        >
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-number">03</span>
+                                <h3>PAGU-TOOLS</h3>
+                            </div>
+                            <span class="badge-project">GovTech & Budgeting</span>
+                        </div>
+                        <p class="project-category-sub">Teknologi Pemerintahan &bull; Perencanaan Anggaran</p>
+                        <p class="project-desc">
+                            Alat bantu digital berbasis peramban (browser) untuk mendukung efisiensi perencanaan anggaran daerah dan alur administrasi tanpa ketergantungan server backend konvensional.
+                        </p>
+
+                        <div class="project-features">
+                            <strong>Fitur Utama:</strong>
+                            <ul>
+                                <li>Antarmuka terstruktur pengolahan pagu anggaran</li>
+                                <li>Kalkulasi otomatis alokasi pos anggaran</li>
+                                <li>Penyimpanan data lokal (Local Storage)</li>
+                                <li>Ekspor & format ringkasan laporan anggaran</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>Web Frontend</span>
+                            <span>Local Storage API</span>
+                            <span>Data Modeling</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 04. TEGAL MAPS -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img 
+                            src="SINERGI1.png" 
+                            alt="Visual Projek TEGAL MAPS" 
+                            class="project-img"
+                            onerror="this.src='https://placehold.co/600x350/059669/ffffff?text=TEGAL+MAPS'"
+                        >
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-number">04</span>
+                                <h3>SINERGI</h3>
+                            </div>
+                            <span class="badge-project">WebGIS</span>
+                        </div>
+                        <p class="project-category-sub">Sistem Informasi Geografis &bull; Pemetaan Digital</p>
+                        <p class="project-desc">
+                            Aplikasi pemetaan digital berbasis web yang menyajikan visualisasi data spasial wilayah melalui antarmuka peta interaktif serta panel informasi berbasis lokasi.
+                        </p>
+
+                        <div class="project-features">
+                            <strong>Fitur Utama:</strong>
+                            <ul>
+                                <li>Peta interaktif dengan kontrol navigasi responsif</li>
+                                <li>Visualisasi batas wilayah spasial & marker lokasi</li>
+                                <li>Panel filter kategori dan detail informasi lokasi</li>
+                                <li>Sinkronisasi data layer geografis real-time</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>HTML / CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Supabase</span>
+                            <span>GeoJSON</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 05. SIMONCER BERKAH -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img 
+                            src="SIMONCER1.png" 
+                            alt="Visual Projek SIMONCER BERKAH" 
+                            class="project-img"
+                            onerror="this.src='https://placehold.co/600x350/d97706/ffffff?text=SIMONCER+BERKAH'"
+                        >
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-number">05</span>
+                                <h3>SIMONCER BERKAH</h3>
+                            </div>
+                            <span class="badge-project">Sistem Administrasi</span>
+                        </div>
+                        <p class="project-category-sub">Administrasi Digital &bull; Sertifikasi Halal UMKM</p>
+                        <p class="project-desc">
+                            Platform administrasi pendampingan sertifikasi halal <em>self-declare</em> bagi pelaku UMKM untuk mempermudah alur verifikasi berkas dan pengunggahan dokumen.
+                        </p>
+
+                        <div class="project-features">
+                            <strong>Fitur Utama:</strong>
+                            <ul>
+                                <li>Formulir digital input profil usaha & bahan baku</li>
+                                <li>Modul unggah & verifikasi dokumen pendukung</li>
+                                <li>Manajemen status verifikasi deklarasi mandiri</li>
+                                <li>Dashboard administrasi pendamping halal</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Apps Script</span>
+                            <span>Google Sheets</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 06. MUARAREJA BERKAH -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img 
+                            src="MUARAREJA1.png" 
+                            alt="Visual Projek MUARAREJA BERKAH" 
+                            class="project-img"
+                            onerror="this.src='https://placehold.co/600x350/0891b2/ffffff?text=MUARAREJA+BERKAH'"
+                        >
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-number">06</span>
+                                <h3>MUARAREJA BERKAH</h3>
+                            </div>
+                            <span class="badge-project">Community Tech</span>
+                        </div>
+                        <p class="project-category-sub">Teknologi Komunitas &bull; Administrasi Lokal</p>
+                        <p class="project-desc">
+                            Platform informasi dan administrasi masyarakat tingkat lingkungan untuk mengumpulkan, mengorganisir, serta menyajikan data warga secara transparan dan tertib.
+                        </p>
+
+                        <div class="project-features">
+                            <strong>Fitur Utama:</strong>
+                            <ul>
+                                <li>Pendataan demografi warga & kepala keluarga</li>
+                                <li>Formulir permohonan surat administrasi warga</li>
+                                <li>Pusat warta lingkungan & agenda komunitas</li>
+                                <li>Dashboard rekapitulasi data administratif</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>JavaScript</span>
+                            <span>Apps Script</span>
+                            <span>Google Sheets</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 07. KELASKU MOBILE -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img 
+                            src="KELASKU1.png" 
+                            alt="Visual Projek KELASKU MOBILE" 
+                            class="project-img"
+                            onerror="this.src='https://placehold.co/600x350/4f46e5/ffffff?text=KELASKU+MOBILE'"
+                        >
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-number">07</span>
+                                <h3>KELASKU MOBILE</h3>
+                            </div>
+                            <span class="badge-project">Offline-First App</span>
+                        </div>
+                        <p class="project-category-sub">Teknologi Pendidikan &bull; Akses Mobile Guru</p>
+                        <p class="project-desc">
+                            Aplikasi pendidikan berorientasi mobile dengan arsitektur <em>offline-first</em>, memudahkan tenaga pendidik mengelola pembelajaran tanpa khawatir kendala koneksi internet.
+                        </p>
+
+                        <div class="project-features">
+                            <strong>Fitur Utama:</strong>
+                            <ul>
+                                <li>UI mobile-first yang intuitif untuk tenaga pendidik</li>
+                                <li>Penyimpanan basis data lokal peramban (Local Storage)</li>
+                                <li>Operasional penuh tanpa koneksi internet (Offline)</li>
+                                <li>Perangkat manajemen nilai & catatan kelas cepat</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>Web Mobile</span>
+                            <span>Local Storage</span>
+                            <span>PWA Concept</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 08. SIPILIHBREBES -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img 
+                            src="SIPILIH1.png" 
+                            alt="Visual Projek SIPILIHBREBES" 
+                            class="project-img"
+                            onerror="this.src='https://placehold.co/600x350/dc2626/ffffff?text=SIPILIHBREBES'"
+                        >
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-number">08</span>
+                                <h3>SIPILIHBREBES</h3>
+                            </div>
+                            <span class="badge-project">E-Voting Tech</span>
+                        </div>
+                        <p class="project-category-sub">Teknologi Kewargaan &bull; Pemungutan Suara Digital</p>
+                        <p class="project-desc">
+                            Projek eksplorasi sistem pemilihan umum digital yang terstruktur, aman, dan mudah diakses, dengan studi integrasi identifikasi perangkat NFC dan verifikasi terdistribusi.
+                        </p>
+
+                        <div class="project-features">
+                            <strong>Fitur Utama:</strong>
+                            <ul>
+                                <li>Antarmuka bilik suara digital yang ramah pemilih</li>
+                                <li>Alur verifikasi surat suara & autentikasi pemilih</li>
+                                <li>Eksplorasi modul tap-in berbasis kartu NFC</li>
+                                <li>Dashboard rekapitulasi perolehan suara terproteksi</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>Frontend Web</span>
+                            <span>NFC / Auth Concept</span>
+                            <span>Blockchain Logic</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            
         </section>
 
         <section id="kontak">
@@ -243,5 +580,9 @@
             this.reset();
         });
     </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="tes.js"></script>
 </body>
 </html>
